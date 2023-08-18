@@ -1,0 +1,24 @@
+Algoritmo questão 5
+
+1º Passo: receber as 10 datas de nascimento separadas
+em dias, meses e anos. Ler cada um desses.
+
+2ª Passo: verificar se os dias, meses e anos são válidos
+-Ano: ser bissexto ou não
+-Mês: se o mês tem 30, 31, 28 ou 29 dias
+-Dias: se o dia está dentro da faixa de possibilidades
+refente ao mês
+
+3º Passo: Guardar os valores em seus devidos arrays
+-valoresAno ou valoresAnoBissexto
+-valoresMes
+-valoresDias31, valoresDias30, valoresDias28, valoresDias29
+
+4º passo: Calcular e informar as idades
+***
+
+5º passo: Comparar as idades
+CONCLUSÃO:
+
+dia, mes, ano : vetor [1..10] de inteiro
+i : inteiro

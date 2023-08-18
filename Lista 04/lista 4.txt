@@ -1,0 +1,47 @@
+Lista 4
+01.
+Numero de Maças
+
+Se o Numero de Maças for < 12:
+total = numero de maças * 1.30
+senão
+se numero de maças for >= 12:
+total = numero de maças * 1
+
+Escreva(total)
+
+02.
+horasTrabalhadas
+salarioHora
+total
+maior
+
+06.
+1	n1 = 1
+2	n2 = n1 + 1
+3	n3 = n2 + 1
+4
+5
+6
+7
+8
+9
+10	n[i] = n[i - 1] + 1
+
+05.
+         senão
+                 se sexo[i] = "f" então
+                 se idade[i] >= 60 então
+                 se anoC[i] >= 30 então
+                    Escreval("NOME:", nome[i])
+                    Escreval("IDADE:", idade[i])
+                    Escreval("SEXO: Feminino")
+                    Escreval("TEMPO DE TRABALHO:", anoC[i])
+                    Escreval("Cliente APTO para aposentadoria.")
+                 senão 
+                 Escreval("NOME:", nome[i])
+                 Escreval("IDADE:", idade[i])
+                 Escreval("SEXO: Masculino")
+                 Escreval("TEMPO DE TRABALHO:", anoC[i])
+                 Escreval("Cliente NÃO APTO para aposentadoria.")
+

@@ -1,0 +1,22 @@
+Questão 07
+
+Faça um algoritmo para ler o peso e altura de 10 pessoas, em seguida, deve-se exibir o resultado, conforme 
+os dados da tabela abaixo
+-Abaixo do Peso  imc<18.5
+-Peso normal 18.5<=imc<=24.9
+-Sobrepeso  25<=imc<=29.9
+-Obesidade Grau I 30<=imc<=34.9
+-Obesidade Grau II  35<=imc>=39.9
+-Obesidade Grau III ou Mórbida imc>= 40
+
+1º passo: Ler os 10 resultados da varial peso e ler os 10 resultados da variavel altura.
+
+2º passo: calcular os 10 imc sendo imc = peso / altura ^ 2
+
+3º passo: Comparar os resultados obtidos com a tabela e informar a sutuação de cada um
+
+CONCLUSÃO:
+
+	peso, altura, imc : vetor [1..10] de real
+	i : vetor [1..10] de inteiro
+	 

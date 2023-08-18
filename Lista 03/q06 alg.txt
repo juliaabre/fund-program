@@ -1,0 +1,21 @@
+questão 06 - Fazer um algoritmo para calcular e imprimir a media aritmética de 10 alunos, tendo como dados de entrada 
+3 notas semestrais. Depois imprimir situação do aluno que deve obedecer ao seguinte critério: (media maior 
+ou igual a 7, “aprovado”; entre 4 e 6.9, “AF”; menor que 4, “reprovado”), depois imprimir a media geral da 
+turma;
+
+1º passo: Ler as variáveis: valorNota1, valorNota2, valorNota3 dos 10 alunos.
+
+2ª passo: calcular média aritmética de cada um, sendo (valorNota1[i] + valorNota2[i] + valorNota3[1])/3 e imprimir cada media.
+
+3º passo: Fazer as condicionais de cada nota:
+	-Aporado >= 7.0
+	-AF  4 <= media <= 6.9
+	-Reprovado < 4
+
+4º passo: Calcular a média geral, sendo valoresMedias[i] / 10
+
+CONCLUSÃO:
+
+	valorNota1, valorNota2, valorNota3 : vetor de [1..10] de real
+	valoresMedias : vetor de [1..10] de real
+
